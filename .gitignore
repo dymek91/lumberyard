@@ -99,6 +99,8 @@
 
 # Make an exception to ignore specific directories
 # Most of these directories are brought in by executing git_bootstrap.
+/.vs
+/dev/Tools/LmbrSetup/Win.vc141
 /3rdParty
 /dev/AssetProcessorTemp
 /dev/BinTemp
@@ -127,6 +129,7 @@
 /dev/Tools/LmbrSetup/Win.vc141.Debug
 /dev/Tools/LmbrSetup/Win.vc140.Debug
 /dev/Tools/LmbrSetup/Win.vc120.Debug
+/dev/StarCitizenModding
 
 # Ignore ico files from Lumberyard folders but preserve ico files in project folders
 /dev/Code/**/*.ico
@@ -137,3 +140,7 @@
 /dev/SetupAssistantUserPreferences.ini
 /dev/_WAF_/environment.json
 /SetupAssistant.bat
+/filehashes.json
+/dev/bootstrap.cfg
+/dev/CrashUploaderLog.txt
+/dev/UserSettings.xml
